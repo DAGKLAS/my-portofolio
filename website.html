@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - George Dagklis</title>
+  <link rel="stylesheet" href="website.css">    <!-- not used yet-->
+</head>
+<body>
+  <!--Header section-->
+  <header>
+    <div class="header-left">
+          <h1> George Dagklis</h1>
+          <div class="contact-info">
+            <div class="email">
+              <img src="images/email.png" alt="Mail Icon" width="22" height="22"> <!-- Mail Icon -->
+              <span>giorgosdaglis28@gmail.com</span>
+            </div>
+            <div class="phone">
+              <img src="images/smart-phone.png" alt="Phone Icon" width="22" height="22"> <!-- Phone Icon -->
+              <span>(123) 456-7890</span>
+            </div>
+          </div>
+          
+    </div>
+    <nav>
+       <ul>
+           <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#recommendations">Recommendations</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <!--About me section -->
+  <section id="about" class="about">
+    <div class="about-img">
+        <img src="images/avatar.png" alt="George Dagklis Avatar">
+    </div>
+    <div class="about-text">
+        <h2>Hi, I'm George Dagklis! <span>👋</span></h2>
+        <p>I am a passionate mathematician with a strong foundation in problem-solving and analytical thinking. My background in mathematics has equipped me with a deep understanding of complex systems and logical reasoning, which I apply in various technical fields. I have developed practical skills in Python, HTML, CSS, and JavaScript, allowing me to build web-based applications and explore data-driven solutions.</p>
+    </div>
+ </section>
+
+<!--Skills Section-->
+ <section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+      <div class="skill-card">
+          <h3>HTML</h3>
+          <p>entry-level experience</p>
+      </div>
+      <div class="skill-card">
+          <h3>JavaScript</h3>
+          <p>entry-level experience</p>
+      </div>
+      <div class="skill-card">
+        <h4>CSS</h4>
+        <p>entry-level experience</p>
+      </div>
+        <div class="skill-card">
+          <h4>Bachelor's Degree in Mathematics </h4>
+          <p>4 year experience</p>
+      </div>
+      <!-- Add other skills -->
+  </div>
+ </section>
+
+<!-- Projects Section -->
+<section id="projects">
+  <h2>Projects</h2>
+  <ul>
+      <li><strong>Chatbot:</strong> Developed a secure website integrated with chatbot for an automobile client using HTML,CSS,JAVASCRIPT and IBM Watson Assistant</li>
+      <li><strong>Sentiment Analyzer:</strong> Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
+      <li><strong>Fashion Website:</strong> Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart , using stripe for payment getaway  </li>
+  </ul>
+</section>
+
+<!--Recommendations section-->
+<section id="recommendations">
+  <h2>Recommendations</h2>
+  <div class="recommendation-cards">
+    <div class="card">"George is a very quick learner and quickly grasps key concepts of Web development. He got a great attitude & he is an excellent team player. He has a curious mind and asks the right questions. He takes initiative within a team and has potential to lead a team" </div>
+    <div class="card">"Working with George has been an awesome experience. He is highly knowledgable and always goes the extra step to make sure everything is right. For ant future projects that need his expertise i would definetely want to work with him again."</div>
+    <div class="card">I wont say much but i assure you that this guy is fully driven by his job and what he is doing!</div>  
+    <div class="card">"Even though he is new to the job he knows exactly what his place is in a company and can be a "sponge" which is the best part about him."</div>
+  </div>
+</section>
+
+<!-- Leave a Recommendation Form -->
+<h3>Leave a Recommendation</h3>
+<form id="recommendationForm">
+    <input type="text" id="name" placeholder="Name (Optional)">
+    <textarea id="message" placeholder="Message"></textarea>
+    <button type="submit" id="submitBtn">Submit</button>
+</form>
+
+
+<!-- Popup Confirmation -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" id="closePopup">&times;</span>
+        <div class="checkmark">✔️</div>
+        <h2>Thanks for leaving a recommendation!</h2>
+        <button id="okButton">Ok</button>
+    </div>
+  </div>
+   <a href="#" class="back-to-top" id="backToTopBtn">↑</a>
+   <script src="website.js"></script>
+</body>
+</html>
+
+  
